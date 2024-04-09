@@ -1,0 +1,25 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    nhacntt:
+      email:
+      failed_login_attempts: 0
+      logged_in: false
+      name: NN
+      password: $2b$12$rgH0N0jAljV7z60yCN9ifumMy7y49/lP.CqUm8JfvlI7V7P7SEZ..
+    hongmt:
+      email:
+      failed_login_attempts: 0
+      logged_in: true
+      name: Hồng
+      password: $2b$12$bO3Dzfe/2T1T7UJUn9p4VuhhLtupKhJqiPGPpndIVgpJ4nsdL7lTu
+    chihtk:
+      email: 
+      failed_login_attempts: 0
+      logged_in: false
+      name: Kim Chi
+      password: $2b$12$BpqSG2Yfn/gGyyIsChRO4uB7qnP3q4VERWbgkMcn2Oodzar/ihVei
+pre-authorized:
