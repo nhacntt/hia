@@ -1,0 +1,10 @@
+Ký hiệu,Mô tả,Cấp độ nguy cơ,Hình thức cành báo
+A,Sự cố xày ra có thể tạo ra lỗi/sai sót,NC0,Tự nguyện
+B,Sự cố xày ra nhưng chưa thực hiện trên NB,NC1,Tự nguyện
+C,Sự cố xày ra nhưng không gây hại,NC1,Tự nguyện
+D,Sự cố xày ra đòi hỏi phải theo dõi,NC1,Tự nguyện
+E,Sự cố xày ra trên NB gây tổn hại sức khỏe tạm thời đòi hỏi phải can thiệp chuyên môn,NC2,Tự nguyện
+F,Sự cố xày ra trên NB ảnh hưởng tới sức khỏe hoặc kéo dài ngày nằm viện,NC2,Tự nguyện
+G,Sự cố xày ra trên NB dẫn đến tàn tật vĩnh viễn,NC3,Bắt buộc
+H,Sự cố xày ra trên NB đòi hòi phải can thiệp để cứu sống NB,NC3,Bắt buộc
+I,Sự cố xày ra trên NB gây tử vong,NC3,Bắt buộc
