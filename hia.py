@@ -10,6 +10,14 @@ import yaml
 from yaml.loader import SafeLoader
 st.set_page_config(layout="wide")
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 def next_page():
     placeholder.empty()
     if(ss['page'] < PAGES):
