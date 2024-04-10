@@ -94,6 +94,7 @@ if st.session_state["authentication_status"]:
     else:
         try:
             df = pd.read_excel(uploaded_file, index_col=0)
+            df['Thời gian'] = pd.to_datetime(df['Thời gian'], format = '%d/%m/%Y')
             report_data.update(generate_report_data(df, report_year, from_month, to_month))
             if 'page' not in ss or ss['page'] in [-1,0]:
                 ss['page'] = 1
